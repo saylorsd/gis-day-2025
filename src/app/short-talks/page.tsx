@@ -17,7 +17,7 @@ export default function LightningTalksPage() {
                 })}
               </p>
               <p>
-                <a className="text-xl" href={`/lightning-talks/${item.slug}`}>
+                <a className="text-xl" href={`/short-talks/${item.slug}`}>
                   {item.title}
                 </a>
               </p>

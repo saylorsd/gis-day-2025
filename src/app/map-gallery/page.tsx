@@ -11,7 +11,7 @@ export default function LightningTalksPage() {
           {maps.map((item, i) => (
             <li key={i}>
               <p>
-                <a className="text-xl" href={`/lightning-talks/${item.slug}`}>
+                <a className="text-xl" href={`/map-gallery/${item.slug}`}>
                   {item.title}
                 </a>
               </p>
