@@ -1,0 +1,21 @@
+- title: "Student Sustainability Projects, CMU Sustainability Initiative"
+  slug: stude-sustainability-projects
+  duration: 10 min w/ 5 min Q, 9:10-9:25 am
+  start: 09:10
+  speakers: Students
+  abstract:
+
+- title: "From Data Portals to Community Platforms: Evolving Open Data"
+  slug: from-data-portals-to-community-platforms
+  duration: 15 min w/5 min Q, 9:25-9:45 am
+  start: 09:25
+  speakers: Keith Swavely & Rachel Weeden, Esri
+  abstract: Open data used to mean publishing files for download. Today, communities are moving beyond that—turning data into stories, dashboards, and interactive resources that support real initiatives and help residents, journalists, and policymakers make informed decisions. This brief session examines how the next generation of data sharing democratizes access and builds a shared understanding of community priorities, not just for data experts but for everyone.
+
+- title: "Mapping Data into Direction - How LDG Uses GIS for Smarter Planning"
+  slug: mapping-data-into-direction
+  duration: 15 min w/ 5 min Q, 9:45-10:05 am
+  start: 09:45
+  speakers: Paul Yoder, Planner, Larson Design Group
+  abstract: This presentation highlights how Larson Design Group’s Planning team integrates GIS technologies across federal, transportation, and community planning projects to inform better decision-making and design outcomes. Through examples ranging from demographic and market analyses to interactive field data collection and stakeholder engagement, we’ll showcase how spatial tools like ArcGIS Online, Business Analyst, Field Maps, and Survey123 enhance collaboration and insight. This short presentation demonstrates the value of GIS as a unifying framework connecting data, people, and place.
+

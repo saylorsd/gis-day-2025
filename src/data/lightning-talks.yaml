@@ -1,0 +1,104 @@
+# 1
+- title: "Animal health deserts in Allegheny County: where human social determinants impact pet health care access"
+  slug: animal-health-deserts
+  session: 1
+  speaker: Mary Elizabeth Rauktis
+  organization: University of Pittsburgh & Humane Animal Rescue and Animal friends
+  start: 10:20
+  end: 10:25
+  abstract: The human social determinants of health (economics, education, health etc) impact animals, eg. pets in the home. In this lightning talk, I'll talk about how using mapping helped to identify areas of lack of veterinary access for lower income individuals who experience the negative impacts of social determinants, namely income. This is reflected in where private veterinary practices, increasingly becoming corporate owned, are located. The co-location of veterinary deserts and low income communities is identified in this map as well as where the mobile health clinics for wellness care visited in 2024. Mapping helped to identify where the clinics can visit but also where humane animal rescue pittsburgh and animal friends can hold mobile vaccine clinics for routine wellness care.
+
+- title: Justice40 Federal Funding Distribution in Pennsylvania Environmental Justice Areas
+  slug: justice-40
+  session: 1
+  speaker: Beth Ann Eberle
+  organization: University of Pittsburgh
+  start: 10:25
+  end: 10:30
+  abstract: Environmental history captures the disproportionate temporal and spatial distribution of environmental hazards surrounding and within marginalized, minority, and low-income communities. The Justice40 Initiative intended to have 40% of federal investments benefiting environmental justice (EJ) areas that have been historically undeserved with disproportionate exposure to environmental hazards. The purpose of this work is to evaluate whether federal funds have been equitably distributed within Pennsylvania designated Environmental Justice areas. Almost 40% of federal funding under the Justice40 Initiative are within EJ areas and assumed to be benefiting the communities. However, there is environmental injustice across PA and the nation.
+
+
+- title: Mapping Litter in Pittsburgh with a Litter Index
+  slug: mapping-litter
+  session: 1
+  speaker: Christopher Mitchell
+  organization: City of Pittsburgh
+  start: 10:30
+  end: 10:35
+  abstract: The [Litter Index](https://www.pittsburghpa.gov/Resident-Services/Trash-Recycling/Anti-Litter-and-Illegal-Dumping/Litter-Index) was a pilot initially meant to be expanded to a City-wide and ongoing repeated surveying, but has yet to have the opportunity to fully implement. The Index did provide very valuable insights into the unusual inverse relationship between reporting of litter issues through 311 and rates of litter actually found, and questioned the how the nature of crowdsourced information like 311 may end up providing disproportionate service to the public by underserving those with the most need and overserving those with the least.
+
+# 2
+- title: Quantitative Analysis of Urban Design Strategies for Heat Island Mitigation
+  slug: heat-island-mitigation
+  speaker: Riley Weng
+  session: 2
+  organization: CMU
+  start: 10:45
+  end: 10:50
+  abstract: Despite increasing investments in urban heat island (UHI) mitigation, quantitative evaluations of their thermal impact remain limited. This thesis addresses that gap by analyzing how specific urban design strategies influence land surface temperatures (LST), using satellite-derived data. A standardized geospatial workflow was applied across case studies, using two cloud-free summer satellite images with comparable air temperatures (pre- and post-intervention). Change detection and spatial analysis techniques were used to quantify localized LST differences and identify statistically significant cooling effects. This work demonstrates a replicable GIS-based approach for cities to evaluate the thermal impact of their design interventions, and highlights which strategies may offer the most measurable reductions in urban heat.
+
+- title: Interactive GIS Applications with Open Data
+  slug: open-data-gis-apps
+  session: 2
+  speaker: Steve Saylor
+  organization: WPRDC/UCSUR/Unversity of Pittsburgh
+  start: 10:50
+  end: 10:55
+  abstract: Using [Parcels N'at](https://parcelsnat.org) as a primary example, I'll go over how the WPRDC processes and serves open geographic data for web application use. I'll cover our custom CKAN extension to process geodata and load it into our PostGIS database as well as how we serve vector tiles of our open data.
+
+# 3
+- title: Operational Use of Mapping Tools in Missing Person Searches
+  slug: missing-person-searches
+  session: 3
+  speaker: Ken Chiacchia
+  organization: Pittsburgh Supercomputing Center / Mountaineer Area Rescue Group
+  start: 15:05
+  end: 15:10
+  abstract: GIS underlies today’s wilderness search operations in several ways. For the search management team, GIS-powered applications such as SARTopo allow us to integrate current search efforts via searchers’ smartphones in a common map showing search teams, assigned areas, and lost-person behavior statistics via tools like range rings, which display how far from the initial planning point (IPP) given percentiles of subjects similar to our current subject have been found. For the individual team leader/dog handler searching an assigned task area, these tools, via smartphones or bespoke GPS units paired with smartphone apps, can integrate current search tracks/waypoints in a way that aids in tactical decisions. Finally, our team has used recorded tracks and waypoints to glean hit and miss distances to measure the effective sweep width for a given detector in given weather, season, and other factors. Through a series of peer-reviewed reports, we’ve helped fill a national database of sweep widths and gleaned practical hints on how to apply these data usefully. We’ve also hypothesis-tested the prevailing models relating sweep width to objective probabilities of detection for practical search tasks. I’ll be reviewing these three major applications.
+
+- title: "Amphibians at Risk: Do Landscape Changes Drive Disease in Northern Pennsylvania?"
+  slug: amphibians-at-risk
+  session: 3
+  speaker: Eliza Lichtman
+  organization: University of Pittsburgh
+  start: 15:10
+  end: 15:15
+  abstract: Human development and climate driven shifts in land use have fragmented habitats, altering wetland connectivity, and negatively impacting amphibian communities. At the same time, the chytrid fungus, Batrachochytrium dendrobatidis (Bd), has emerged as a global pathogen responsible for widespread amphibian decline, with outbreaks linked to environmental stressors including habitat degradation, thermal stress, and hydrological changes. Currently, it is unclear to what extent habitat continuity influences Bd prevalence and amphibian species diversity in temperate regions. My submission uses historical habitat data as well as Bd load and species richness data for 10 ponds, 2022-2025, to identify how landscape changes influence Bd spread and species presence in northern Pennsylvania. It is hypothesized that amphibian species in more fragmented habitats will exhibit higher average Bd presence and lower species richness. While this project is still in progress, understanding these relationships may improve our ability to predict Bd risk and spread as climate change continues to reshape habitats.
+
+- title: "Spatial visualization training updates, one year later: Changes to brain function help close performance gaps"
+  slug: spatial-visualization-training-updates
+  session: 3
+  speaker: Marissa Laws
+  organization: CMU
+  start: 15:15
+  end: 15:20
+  abstract: "Although spatial skills are critical for success in STEM fields and daily life, they are not typically emphasized in traditional education, despite being highly malleable. Uncovering the cognitive and neural mechanisms of spatial learning will help us to refine spatial education and understand the specific subprocesses contributing to success. In 60 adults, spatial visualization training successfully improves spatial performance and alters brain activity during spatial processing in two functionally specific and distinct networks: spatial-numerical transformation and geometric comparison. Behavioral and brain plasticity was greatest in those who initially struggled with spatial skills. These results show that spatial training is effective at closing performance gaps, can transfer to untrained domains, and systematically refines neural processing."
+
+
+# 4
+- title: "OpenFLAME: A Federated Mapping Infrastructure"
+  slug: openflame
+  session: 4
+  speaker: Sagar Bharadwaj
+  organization: CMU
+  start: 15:30
+  end: 15:35
+  abstract: This talk introduces OpenFLAME, a federated mapping infrastructure that lets independent parties manage and serve their own maps, while providing coherent and seamless maps across spaces to applications. Federation improves scalability, privacy, and isolation of maps. Our discovery system, built on top of DNS, identifies maps available for a given region while leveraging existing infrastructure. On top of OpenFLAME, we support core services such as address-to-location mapping, routing, and localization. We are currently deploying OpenFLAME at Carnegie Mellon University, where it powers the first set of spatial applications built on our federated approach.
+
+- title: ArcGIS Methods for Automated Hydrology and Hydraulics Table Production
+  slug: automated-hydrology-table-production
+  session: 4
+  speaker: Patrick Lovenguth
+  organization: University of Pittsburgh
+  start: 15:35
+  end: 15:40
+  abstract: Hydrology and hydraulic (H&H) tables are critical for evaluating land cover, curve number (CN), and hydrologic changes in pre and post development conditions. Traditionally, their production requires significant and time intensive manual effort, particularly for large sites (500 acres or greater). Established methods require the engineer to perform highly sequenced repetitive steps based on few differing inputs. This study presents a custom ArcGIS Pro toolbox composed of two Python- based scripts that automate drainage area delineation, CN raster generation, and H&H table production.
+
+- title: Automating Data Extraction and Transformation for ArcGIS Dashboards
+  slug: automating-data-extraction
+  session: 4
+  speaker: Aashish K C
+  organization: Erie County
+  start: 15:40
+  end: 15:45
+  abstract: This talk demonstrates how automated workflows built with Python streamline data extraction and transformation for ArcGIS dashboards. By replacing manual processes, the approach enhances efficiency, accuracy, and accessibility, enabling timely, data-driven insights to support public policy, economic development, and community decision-making. The Erie County Data Center manages data for ErieVitalSigns.org on behalf of the Erie Community Foundation. ErieVitalSigns.org provides a wide range of community data on Erie County—covering topics such as the economy, health, and overall livability. Previously, this information was collected and processed manually, consuming significant time and organizational resources to stay current. Today, the process is automated within the Python and ArcGIS environments. Participants will leave this session with a clear understanding of how similar data extraction and transformation workflows can be implemented in their own organizations to maintain accurate, up-to-date dashboards with far less effort.
