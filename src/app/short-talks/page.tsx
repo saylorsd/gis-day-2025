@@ -6,9 +6,9 @@ export default function LightningTalksPage() {
 
   return (
     <div>
-      <h1 className="mb-12 font-display text-5xl">Short Talks</h1>
+      <h1 className="mb-12 font-display text-6xl">Short Talks</h1>
       <nav>
-        <ul className="space-y-6">
+        <ul className="space-y-8">
           {lightningTalks.map((item, i) => (
             <li key={i}>
               <p className="text-sm font-bold">
@@ -16,8 +16,11 @@ export default function LightningTalksPage() {
                   timeStyle: "short",
                 })}
               </p>
-              <p>
-                <a className="text-xl" href={`/short-talks/${item.slug}`}>
+              <p className="mb-1">
+                <a
+                  className="text-lg md:text-xl"
+                  href={`/short-talks/${item.slug}`}
+                >
                   {item.title}
                 </a>
               </p>

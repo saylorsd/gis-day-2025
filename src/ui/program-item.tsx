@@ -64,6 +64,11 @@ export function ProgramItem(props: ProgramItemProps) {
             </div>
           </>
         )}
+        {!!props.detailsLink && (
+          <div className="block text-dark-slate md:inline-block md:pl-4">
+            (<a href={props.detailsLink}>Descriptions</a>)
+          </div>
+        )}
       </div>
       {(!!props.speakers || !!props.organizations) && (
         <>

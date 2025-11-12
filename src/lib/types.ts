@@ -34,7 +34,7 @@ export interface Map {
   slug: string;
   title: string;
   author: string;
-  is_staff: boolean;
+  is_student: boolean;
   abstract: string;
 }
 
