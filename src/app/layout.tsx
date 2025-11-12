@@ -46,7 +46,7 @@ export default function RootLayout({
             <NavMenu />
           </div>
         </header>
-        <main className="container mx-auto max-w-4xl px-4 py-12">
+        <main className="container mx-auto max-w-4xl px-4 py-12 pb-24">
           {children}
         </main>
       </body>

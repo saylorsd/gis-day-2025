@@ -33,7 +33,7 @@ export default function Home() {
             href="/program"
           >
             <TbNotebook />
-            <div>Jump to the Program</div>
+            <span className="block">Jump to the Program</span>
           </Link>
         </p>
         <p>

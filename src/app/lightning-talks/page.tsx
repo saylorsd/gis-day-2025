@@ -16,28 +16,28 @@ export default function LightningTalksPage() {
       <nav>
         <ul className="space-y-8">
           <li id="session-1">
-            <div className="font-display text-2xl">Session 1</div>
+            <div className="mt-12 font-display text-2xl">Session 1</div>
             <div className="font-mono">10:20 AM — 10:45 AM</div>
           </li>
           <SessionPart items={session1} />
 
           <li id="session-2">
-            <div className="font-display text-2xl">Session 2</div>
+            <div className="mt-12 font-display text-2xl">Session 2</div>
             <div className="font-mono">10:45 AM — 11:05 AM</div>
           </li>
-          <SessionPart items={session1} />
+          <SessionPart items={session2} />
 
           <li id="session-3">
-            <div className="font-display text-2xl">Session 3</div>
+            <div className="mt-12 font-display text-2xl">Session 3</div>
             <div className="font-mono">3:05 PM — 3:30 PM</div>
           </li>
-          <SessionPart items={session1} />
+          <SessionPart items={session3} />
 
           <li id="session-4">
-            <div className="font-display text-2xl">Session 4</div>
+            <div className="mt-12 font-display text-2xl">Session 4</div>
             <div className="font-mono">3:30 PM — 3:55 PM</div>
           </li>
-          <SessionPart items={session1} />
+          <SessionPart items={session4} />
         </ul>
       </nav>
     </div>
@@ -48,7 +48,7 @@ export function SessionPart(props: { items: RawTalk[] }) {
   return (
     <div>
       {props.items.map((item, i) => (
-        <li key={i}>
+        <li key={i} className="mb-6">
           <p className="text-sm font-bold">
             {parseTime(item.start).toLocaleString(undefined, {
               timeStyle: "short",
