@@ -26,9 +26,6 @@ export function NavMenu(props: { small?: boolean }) {
               <Link href="/program">Program</Link>
             </li>
             <li>
-              <Link href="/venue">Other Info</Link>
-            </li>
-            <li>
               <Link href="/lightning-talks">Lightning Talks</Link>
             </li>
             <li>
@@ -36,6 +33,9 @@ export function NavMenu(props: { small?: boolean }) {
             </li>
             <li>
               <Link href="/open-house">Open House & Map Gallery</Link>
+            </li>
+            <li>
+              <Link href="/venue">Venu & Other Info</Link>
             </li>
           </div>
         </ul>
@@ -49,7 +49,7 @@ export function NavMenu(props: { small?: boolean }) {
             <Link href="/program">Program</Link>
           </li>
           <li>
-            <Link href="/venue">Other Info</Link>
+            <Link href="/venue">Venu & Other Info</Link>
           </li>
           <li>
             <button

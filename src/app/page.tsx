@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { TbNotebook } from "react-icons/tb";
 import Link from "next/link";
 
 export default function Home() {
@@ -24,6 +25,16 @@ export default function Home() {
           >
             Come one, Come All!
           </a>
+        </p>
+        <p className="flex justify-center">
+          <Link
+            className="ml-1 inline-flex items-center rounded-sm border-2 bg-teal-200 px-2 py-1 text-base uppercase shadow transition-all duration-150 ease-in hover:bg-teal-400 hover:shadow-lg md:text-xl"
+            style={{ textDecoration: "none" }}
+            href="/program"
+          >
+            <TbNotebook />
+            <div>Jump to the Program</div>
+          </Link>
         </p>
         <p>
           A Pittsburgh GIS Day event is hosted by Carnegie Mellon University
@@ -59,7 +70,7 @@ export default function Home() {
           <li>Sam Buckley, Pittsburgh Regional Transit</li>
           <li>
             Steve Saylor and Ross Reilly, Western Pennsylvania Regional Data
-            Center
+            Center, UCSUR, Pitt
           </li>
         </ul>
 
