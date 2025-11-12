@@ -20,7 +20,7 @@ export default function VenuPage() {
       <h2 className="font-display text-4xl">Location</h2>
 
       <p>
-        The event will be held in the Rangos Ballroom on the
+        The event will be held in the Rangos Ballroom on the{" "}
         <a
           className="c2"
           href="https://www.google.com/url?q=http://www.cmu.edu/cohon-university-center/images/floor-plans/CUC_2.pdf&amp;sa=D&amp;source=editors&amp;ust=1762905357305479&amp;usg=AOvVaw1K-y5ZJTyDW-828f3NVtye"
@@ -45,14 +45,14 @@ export default function VenuPage() {
           Ballroom.
         </li>
         <li>
-          Single user restrooms are located on the
+          Single user restrooms are located on the{" "}
           <a
             className="c2"
             href="https://www.google.com/url?q=https://www.cmu.edu/cohon-university-center/images/floor-plans/cohon-center-building-map-ll.pdf&amp;sa=D&amp;source=editors&amp;ust=1762905357306519&amp;usg=AOvVaw0dmUlLM_4HpH19h7k989sh"
           >
             Lower Level
-          </a>
-          &nbsp;in rooms LL84A and LL84B near Tartan Ink and Scotch and Soda.
+          </a>{" "}
+          in rooms LL84A and LL84B near Tartan Ink and Scotch and Soda.
         </li>
       </ul>
 
@@ -101,7 +101,7 @@ export default function VenuPage() {
       <h2 className="font-display text-4xl">Quiet Spaces</h2>
       <ul>
         <li>
-          The Dowd Room
+          The Dowd Room{" "}
           <a
             className="c2"
             href="https://www.google.com/url?q=http://www.cmu.edu/cohon-university-center/images/floor-plans/CUC_2.pdf&amp;sa=D&amp;source=editors&amp;ust=1762905357308392&amp;usg=AOvVaw1Gk-DtFdxeCNy45Gmgcu3J"
@@ -111,13 +111,13 @@ export default function VenuPage() {
           &nbsp;is a designated Quiet Room for this event.
         </li>
         <li>
-          A multi-denominational Prayer Room is located on the
+          A multi-denominational Prayer Room is located on the{" "}
           <a
             className="c2"
             href="https://www.google.com/url?q=https://www.cmu.edu/cohon-university-center/images/floor-plans/cohon-center-building-map-ll.pdf&amp;sa=D&amp;source=editors&amp;ust=1762905357308724&amp;usg=AOvVaw0gM1AdG9lMcyPn5kNSMAjd"
           >
             Lower Level
-          </a>
+          </a>{" "}
           of the CUC.
         </li>
       </ul>
@@ -161,50 +161,49 @@ export default function VenuPage() {
       <h3 className="font-display">Bicycles</h3>
 
       <p>
-        CMU now has
+        CMU now has{" "}
         <a
           className="c2"
           href="https://www.google.com/url?q=https://www.cmu.edu/transportation/wheels/dismount.html&amp;sa=D&amp;source=editors&amp;ust=1762905357310494&amp;usg=AOvVaw3xWl74V2MeZhOFoB3WKU_w"
         >
           Dismount Zones
-        </a>
-        &nbsp;where bikes should be dismounted and walked on the path.
+        </a>{" "}
+        where bikes should be dismounted and walked on the path.{" "}
         <a
           className="c2"
           href="https://www.google.com/url?q=https://www.cmu.edu/transportation/wheels/index.html&amp;sa=D&amp;source=editors&amp;ust=1762905357310774&amp;usg=AOvVaw3clRZkXUqC7BOSbGqyGZbH"
         >
           Bike racks
-        </a>
-        &nbsp;are located across campus. There is a bike rack outside of the
-        Cohon University Center - Forbes Ave entrance. If you prefer to park in
-        a covered area, the East Garage has a bike rack near the entrance of the
+        </a>{" "}
+        are located across campus. There is a bike rack outside of the Cohon
+        University Center - Forbes Ave entrance. If you prefer to park in a
+        covered area, the East Garage has a bike rack near the entrance of the
         garage.
       </p>
 
       <p>
-        The closest POGOH station is in front of
+        The closest POGOH station is in front of{" "}
         <a
           className="c2"
           href="https://www.google.com/url?q=https://maps.app.goo.gl/zurD3ovoAPcJ7hQL6&amp;sa=D&amp;source=editors&amp;ust=1762905357311414&amp;usg=AOvVaw2R7jbnmIMT0R3tLl8pl9RT"
         >
           TCS Hall
-        </a>
-        &nbsp;on Forbes Ave.
+        </a>{" "}
+        on Forbes Ave.
       </p>
       <p className="c0 c9"></p>
       <p>Public Transit</p>
       <p>
-        CMU is served by 61s and 71s and many other lines.
+        CMU is served by 61s and 71s and many other lines.{" "}
         <a
           className="c2"
           href="https://www.google.com/url?q=https://www.rideprt.org/inside-Pittsburgh-Regional-Transit/rider-info/mobile-applications/&amp;sa=D&amp;source=editors&amp;ust=1762905357311807&amp;usg=AOvVaw2ejY1T32CgbAysbrXokZMh"
         >
           Various apps
-        </a>
-        &nbsp;can be used to find Bus Schedules including Google Maps, the
-        Transit app or PRT&rsquo;s Ready2Ride app. The main stops are at
-        &ldquo;Forbes Ave and Morewood Ave&rdquo; and &ldquo;Park Plaza on Craig
-        St&rdquo;.
+        </a>{" "}
+        can be used to find Bus Schedules including Google Maps, the Transit app
+        or PRT&rsquo;s Ready2Ride app. The main stops are at &ldquo;Forbes Ave
+        and Morewood Ave&rdquo; and &ldquo;Park Plaza on Craig St&rdquo;.
       </p>
       <ul className="c7 lst-kix_8goel0fth5wh-0 start">
         <li>
@@ -245,21 +244,15 @@ export default function VenuPage() {
       </p>
       <p>
         Campus visitors can pre-book parking spaces in the gated portion of the
-        Morewood Lot via the
-        <a
-          className="c2"
-          href="https://www.google.com/url?q=https://parkmobile.io/&amp;sa=D&amp;source=editors&amp;ust=1762905357314453&amp;usg=AOvVaw1JzkJIDkErpylPxE-GLJce"
-        >
-          &nbsp;
-        </a>
+        Morewood Lot via the{" "}
         <a
           className="c2"
           href="https://www.google.com/url?q=https://parkmobile.io/&amp;sa=D&amp;source=editors&amp;ust=1762905357314522&amp;usg=AOvVaw0huLowZIcnryOhkPmqtZsN"
         >
           ParkMobile app
-        </a>
-        &nbsp;&ndash; just pre-pay for your spot online and scan the app&rsquo;s
-        QR code at the entrance gate.
+        </a>{" "}
+        &ndash; just pre-pay for your spot online and scan the app&rsquo;s QR
+        code at the entrance gate.
       </p>
     </article>
   );
