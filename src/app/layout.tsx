@@ -1,12 +1,5 @@
 import type { Metadata } from "next";
-import {
-  Caprasimo,
-  Geist,
-  Geist_Mono,
-  JetBrains_Mono,
-  Noto_Sans,
-  Space_Mono,
-} from "next/font/google";
+import { Caprasimo, JetBrains_Mono, Noto_Sans } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
 import { NavMenu } from "@/ui/nav-menu";
@@ -42,8 +35,9 @@ export default function RootLayout({
       <body
         className={`${caprasimo.variable} ${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <header className="flex w-full items-center justify-between border-b-2 px-4 py-4 lg:px-12 lg:py-8">
-          <div className="font-display text-3xl">
+        <header className="flex w-full items-center border-b-2 px-4 py-4 md:justify-between lg:px-12 lg:py-8">
+          <NavMenu small />
+          <div className="ml-4 font-display text-3xl md:ml-0">
             <Link style={{ textDecoration: "none" }} href="/">
               GIS Day 2025
             </Link>

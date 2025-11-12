@@ -3,8 +3,8 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div>
-      <h1 className="mb-8 font-display text-9xl text-dark-slate">
+    <div className="pb-24">
+      <h1 className="mb-8 font-display text-5xl text-dark-slate md:text-7xl lg:text-9xl">
         GIS Day 2025
       </h1>
 
