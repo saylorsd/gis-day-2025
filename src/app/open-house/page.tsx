@@ -9,42 +9,24 @@ export default function OpenHousePages() {
       <h1 className="text-5xl">Open House & Map Gallery</h1>
       <h2>Open House tables to visit in Rangos 2.</h2>
       <ul>
-        <li>Larson Design Group</li>
         <li>
-          University of Pittsburgh Library System - Boris Michev, bom17@pitt.edu
+          University of Pittsburgh, University Center for Social and Urban
+          Research
         </li>
-        <li>
-          Allegheny County; Eli Thomas, Tom Allison, Darin Palilla, Brian McBane
-        </li>
-        <li>
-          City of Pittsburgh; Cherin Abdelsamie
-          (cherin.abdelsamie@pittsburghpa.gov), Becky Reinhold
-          (rebecca.reinhold@pittsburghpa.gov), Draven Bechtel-Clark
-          (draven.bechtel-clark@pittsburghpa.gov) and Giovanni Svevo &lt;
-          <a href="mailto:giovanni.svevo@pittsburghpa.gov">
-            giovanni.svevo@pittsburghpa.gov
-          </a>
-          &gt;
-        </li>
+        <li>Pittsburgh Supercomputing Center (PSC)</li>
+        <li>Monroeville Municipal Authority</li>
+        <li>Allegheny County GIS</li>
+        <li>Carnegie Library of Pittsburgh</li>
+        <li>CMU Library Student Advisory Council</li>
         <li>Esri</li>
-        <li>
-          Pittsburgh Water, Jackson Stoss, GIS Manager (jstoss@pgh2o.com) and
-          Megan Hicks, Senior GIS Analyst (mhicks@pgh2o.com).{" "}
-        </li>
-        <li>
-          ALCOSAN; Greg Alexander &ndash; greg.alexander@alcosan.org &amp; Amber
-          Castelveter &ndash; amber.castelveter@alcosan.org
-        </li>
-        <li>
-          Western Pennsylvania Regional Data Center, Steve Saylor
-          (steven.saylor@pitt.edu), Ross Reilly (ror88@pitt.edu), Bob Gradeck
-          (rmg44@pitt.edu)
-        </li>
-        <li>
-          Pittsburgh Supercomputing Center; Matt Yoder (mjyoder@psc.edu) and
-          Mariah Kenney (kenneyml@psc.edu)
-        </li>
-        <li>Pittsburgh Regional Transit</li>
+        <li>City of Pittsburgh GIS</li>
+        <li>Larson Design Group</li>
+        <li>Civic Mapper</li>
+        <li>Pittsburgh Water</li>
+        <li>Scotty Labs & Open FLAME</li>
+        <li>PRT</li>
+        <li>JMT</li>
+        <li>WPRDC</li>
       </ul>
 
       <h2>Map Gallery</h2>
