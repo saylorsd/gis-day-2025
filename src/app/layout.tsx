@@ -38,7 +38,7 @@ export default function RootLayout({
         <header className="flex w-full items-center border-b-2 px-4 py-4 md:justify-between lg:px-12 lg:py-8">
           <NavMenu small />
           <div className="ml-4 font-display text-3xl md:ml-0">
-            <Link style={{ textDecoration: "none" }} href="/">
+            <Link style={{ textDecoration: "none", fontWeight: 400 }} href="/">
               GIS Day 2025
             </Link>
           </div>

@@ -11,7 +11,7 @@ export function NavMenu(props: { small?: boolean }) {
   if (props.small)
     return (
       <div>
-        <nav className="block md:hidden">
+        <nav className="block pt-1 md:hidden">
           <button onClick={() => setOpen(!open)}>
             <TbMenu2 className="size-10" />
           </button>
