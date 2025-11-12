@@ -10,38 +10,36 @@ export function NavMenu(props: { small?: boolean }) {
 
   if (props.small)
     return (
-      <div>
-        <nav className="block pt-1 md:hidden">
-          <button onClick={() => setOpen(!open)}>
-            <TbMenu2 className="size-10" />
-          </button>
-          <ul
-            className="absolute left-0 w-full px-2"
-            style={{ display: open ? "flex" : "none" }}
+      <nav className="block pt-1 md:hidden">
+        <button onClick={() => setOpen(!open)}>
+          <TbMenu2 className="size-10" />
+        </button>
+        <ul
+          className="absolute left-0 w-full px-2"
+          style={{ display: open ? "flex" : "none" }}
+        >
+          <div
+            className="mt-2 w-full space-y-2 border-2 bg-background p-4 px-4 text-lg shadow-md"
+            onClick={() => setOpen(!open)}
           >
-            <div
-              className="mt-2 w-full space-y-2 border-2 bg-background p-4 px-4 text-lg shadow-md"
-              onClick={() => setOpen(!open)}
-            >
-              <li>
-                <Link href="/program">Program</Link>
-              </li>
-              <li>
-                <Link href="/venue">Other Info</Link>
-              </li>
-              <li>
-                <Link href="/lightning-talks">Lightning Talks</Link>
-              </li>
-              <li>
-                <Link href="/short-talks">Short Talks</Link>
-              </li>
-              <li>
-                <Link href="/open-house">Open House & Map Gallery</Link>
-              </li>
-            </div>
-          </ul>
-        </nav>
-      </div>
+            <li>
+              <Link href="/program">Program</Link>
+            </li>
+            <li>
+              <Link href="/venue">Other Info</Link>
+            </li>
+            <li>
+              <Link href="/lightning-talks">Lightning Talks</Link>
+            </li>
+            <li>
+              <Link href="/short-talks">Short Talks</Link>
+            </li>
+            <li>
+              <Link href="/open-house">Open House & Map Gallery</Link>
+            </li>
+          </div>
+        </ul>
+      </nav>
     );
   else {
     return (
