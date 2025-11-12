@@ -30,6 +30,9 @@ export default function OpenHousePages() {
       </ul>
 
       <h2>Map Gallery</h2>
+      <a href="https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Farcg.is%2FOKW0j1&data=05%7C02%7Csteven.saylor%40pitt.edu%7Cf17a46d352374b0c254d08de22187012%7C9ef9f489e0a04eeb87cc3a526112fd0d%7C1%7C0%7C638985685552074864%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=JvRobd0nyxb%2FWH9bQHjMNz%2FRuDBcMP6Gi30hH9aHmAw%3D&reserved=0">
+        View The Virtual Map Gallery
+      </a>
       <div className="not-prose">
         <ul className="list-none p-0">
           {maps.map((item, i) => (
