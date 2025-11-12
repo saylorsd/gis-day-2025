@@ -63,7 +63,7 @@ export default async function ProgramPage() {
 
   return (
     <div className="">
-      <h1 className="mb-6 font-display text-4xl md:mb-12 md:text-5xl">
+      <h1 className="mb-6 font-display text-6xl md:mb-12 md:text-5xl">
         Program
       </h1>
       <h2 className="mb-4 font-display text-3xl md:text-4xl">
