@@ -29,7 +29,7 @@ export default async function TalkPage({
         </span>
         <span className="ml-4 font-medium italic">Session {talk.session}</span>
       </p>
-      <div className="prose-lg mt-8 font-medium">
+      <div className="prose-sm mt-8 font-medium md:prose-lg lg:prose-xl">
         <p>{talk.abstract}</p>
       </div>
     </div>

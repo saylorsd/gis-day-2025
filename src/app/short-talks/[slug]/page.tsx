@@ -22,7 +22,7 @@ export default async function TalkPage({
       <p className="my-4 text-lg font-bold">
         <div>{talk.duration}</div>
       </p>
-      <div className="prose-lg mt-8 font-medium">
+      <div className="prose-sm mt-8 font-medium md:prose-lg lg:prose-xl">
         <p>{talk.abstract}</p>
       </div>
     </div>

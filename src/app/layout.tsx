@@ -1,7 +1,15 @@
 import type { Metadata } from "next";
-import { Caprasimo, Geist, Geist_Mono } from "next/font/google";
+import {
+  Caprasimo,
+  Geist,
+  Geist_Mono,
+  JetBrains_Mono,
+  Noto_Sans,
+  Space_Mono,
+} from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
+import { NavMenu } from "@/ui/nav-menu";
 
 const caprasimo = Caprasimo({
   weight: "400",
@@ -9,12 +17,12 @@ const caprasimo = Caprasimo({
   subsets: ["latin"],
 });
 
-const geistSans = Geist({
+const geistSans = Noto_Sans({
   variable: "--font-geist-sans",
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
+const geistMono = JetBrains_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
@@ -34,25 +42,14 @@ export default function RootLayout({
       <body
         className={`${caprasimo.variable} ${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <header className="flex w-full items-center justify-between border-b-2 px-12 py-8">
-          <div className="font-display text-3xl">GIS Day 2025</div>
+        <header className="flex w-full items-center justify-between border-b-2 px-4 py-4 lg:px-12 lg:py-8">
+          <div className="font-display text-3xl">
+            <Link style={{ textDecoration: "none" }} href="/">
+              GIS Day 2025
+            </Link>
+          </div>
           <div>
-            <nav>
-              <ul className="flex space-x-4 font-sans text-xl">
-                <li>
-                  <Link href="/program">Program</Link>
-                </li>
-                <li>
-                  <Link href="/lightning-talks">Lightning Talks</Link>
-                </li>
-                <li>
-                  <Link href="/short-talks">Short Talks</Link>
-                </li>
-                <li>
-                  <Link href="/map-gallery">Map Gallery</Link>
-                </li>
-              </ul>
-            </nav>
+            <NavMenu />
           </div>
         </header>
         <main className="container mx-auto max-w-4xl px-4 py-12">

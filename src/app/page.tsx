@@ -8,7 +8,7 @@ export default function Home() {
         GIS Day 2025
       </h1>
 
-      <div className="prose-xl font-medium text-chocolate">
+      <div className="prose-sm font-medium text-chocolate md:prose-lg lg:prose-xl">
         <p>
           GIS Day is celebrated on the 3rd Wednesday of November as an
           international forum for users of GIS technology to demonstrate

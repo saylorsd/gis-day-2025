@@ -1,4 +1,5 @@
 import { getMap, getTalk } from "@/lib/api";
+import { marked } from "marked";
 
 export default async function TalkPage({
   params,
@@ -10,6 +11,8 @@ export default async function TalkPage({
 
   if (!map) return <div></div>;
 
+  const content = marked.parse(map.abstract);
+
   return (
     <div>
       <p className="font-mono text-xs uppercase">Map</p>
@@ -18,9 +21,10 @@ export default async function TalkPage({
         <p className="text-xl font-bold">{map.author}</p>
       </div>
 
-      <div className="prose-lg mt-8 font-medium">
-        <p>{map.abstract}</p>
-      </div>
+      <div
+        className="prose prose-sm mt-8 font-medium md:prose-lg lg:prose-xl"
+        dangerouslySetInnerHTML={{ __html: content }}
+      />
     </div>
   );
 }

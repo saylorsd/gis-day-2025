@@ -45,8 +45,8 @@ export function ProgramItem(props: ProgramItemProps) {
 
   return (
     <li className="my-8">
-      <div className="mb-4 text-lg leading-none">
-        <div className="inline-block font-mono font-bold">
+      <div className="mb-4 text-lg">
+        <div className="mr-4 inline-block font-mono font-bold">
           <span>
             {startDate.toLocaleTimeString(undefined, { timeStyle: "short" })}
           </span>
@@ -55,7 +55,7 @@ export function ProgramItem(props: ProgramItemProps) {
             {endDate.toLocaleTimeString(undefined, { timeStyle: "short" })}
           </span>
         </div>
-        <div className="ml-4 inline-block font-bold">{props.title}</div>
+        <div className="inline-block font-bold">{props.title}</div>
         {!!props.location && (
           <>
             <div className="ml-2 inline-block font-medium">|</div>
@@ -66,34 +66,30 @@ export function ProgramItem(props: ProgramItemProps) {
         )}
       </div>
       {(!!props.speakers || !!props.organizations) && (
-        <div>
-          <span>{props.speakers}</span>, <span>{props.organizations}</span>
-        </div>
+        <>
+          <span className="inline-block">{props.speakers}</span>,
+          <span className="inline-block">{props.organizations}</span>
+        </>
       )}
 
       {!!props.items && (
         <ul className="list ml-8 space-y-4">
           {props.items.map((item) => (
             <li key={item.title} className="">
-              <div className="-ml-2 inline-block font-semibold">
-                <span className="text-xl leading-none">&bull;</span>{" "}
-                {item.title}
+              <div className="-ml-2 inline-block -indent-4 font-semibold">
+                &bull; {item.title}
               </div>
               {(!!item.speakers || !!item.organizations) && (
-                <>
-                  <div className="ml-2 inline-block">|</div>
-
-                  <div className="ml-2 inline-block">
-                    <span>{item.speakers}</span>,{" "}
-                    <span>{item.organizations}</span>
-                  </div>
-                </>
+                <div>
+                  <span className="ml-2 inline-block">{item.speakers}</span>,
+                  <span className="ml-2 inline-block">
+                    {item.organizations}
+                  </span>
+                </div>
               )}
 
               {!!getDurations(item) && (
-                <div className="ml-2 inline-block italic">
-                  ({getDurations(item)})
-                </div>
+                <div className="ml-2 italic">({getDurations(item)})</div>
               )}
             </li>
           ))}

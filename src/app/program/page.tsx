@@ -1,5 +1,6 @@
 import { getMaps, getSchedule, getShortTalks, getTalks } from "@/lib/api";
 import { ProgramItem, ProgramItemProps } from "@/ui/program-item";
+import { TbPencil } from "react-icons/tb";
 
 export default async function ProgramPage() {
   const schedule = getSchedule().filter((s) => !!s);
@@ -61,10 +62,14 @@ export default async function ProgramPage() {
   ];
 
   return (
-    <div>
-      <h1 className="mb-12 font-display text-6xl">Program</h1>
-      <h2 className="mb-4 font-display text-5xl">High-Level Overview</h2>
-      <p className="my-4 text-xl">
+    <div className="">
+      <h1 className="mb-6 font-display text-4xl md:mb-12 md:text-5xl">
+        Program
+      </h1>
+      <h2 className="mb-4 font-display text-3xl md:text-4xl">
+        High-Level Overview
+      </h2>
+      <p className="my-4">
         Held on the{" "}
         <a
           href="http://www.cmu.edu/cohon-university-center/images/floor-plans/CUC_2.pdf"
@@ -75,57 +80,79 @@ export default async function ProgramPage() {
         of the Cohon University Center at CMU
       </p>
 
-      <ul className="text-xl">
-        <li className="flex gap-2">
+      <ul
+        className="w-full list-outside p-0 pl-0 md:text-lg"
+        style={{ paddingLeft: 0 }}
+      >
+        <li
+          className="flex flex-col pl-0 md:flex-row md:gap-2"
+          style={{ paddingLeft: 0 }}
+        >
           <span className="font-bold">Registration Table</span>
-          <span> | </span>
-          <span>hallway outside Rangos</span>
-          <span> | </span>
-          <span> 8:30 am - 2:30 pm</span>
+          <span className="hidden md:inline"> | </span>
+          <span className="ml-4 md:ml-1">hallway outside Rangos</span>
+          <span className="hidden md:inline"> | </span>
+          <span className="ml-4 inline-block md:ml-1 md:ml-2">
+            8:30 am - 2:30 pm
+          </span>
         </li>
-        <li className="flex gap-2">
+        <li
+          className="flex flex-col pl-0 md:flex-row md:gap-2"
+          style={{ paddingLeft: 0 }}
+        >
           <span className="font-bold">Quiet Room</span>
-          <span> | </span>
-          <span>the Dowd Room</span>
+          <span className="hidden md:inline"> | </span>
+          <span className="ml-4 md:ml-1">the Dowd Room</span>
         </li>
-        <li className="flex gap-2">
+        <li
+          className="flex flex-col pl-0 md:flex-row md:gap-2"
+          style={{ paddingLeft: 0 }}
+        >
           <span className="font-bold">Escape Room</span>
-          <span> | </span>
-          <span>Class of 1987 Room</span>
-          <span> | </span>
-          <span>
+          <span className="hidden md:inline"> | </span>
+          <span className="ml-4 md:ml-1">Class of 1987 Room</span>
+          <span className="hidden md:inline"> | </span>
+          <span className="ml-4 md:ml-1">
             10:30 am - 3:00 pm{" "}
             <a
-              className="font-semibold underline hover:underline-offset-4"
+              className="ml-1 inline-flex items-center rounded-sm border-2 bg-teal-200 px-1 py-0.5 text-xs uppercase shadow transition-all duration-150 ease-in hover:bg-teal-400 hover:shadow-lg md:text-sm"
+              style={{ textDecoration: "none" }}
               href="https://docs.google.com/spreadsheets/d/1MmnPdv8HcKdbzxAZ1Rhi9rTpAJrtrimN6WK1I3337Wo/edit?usp=sharing"
             >
-              &lt;sign up for a time&gt;
+              <TbPencil />
+              <div>sign up for a time</div>
             </a>
           </span>
         </li>
-        <li className="flex gap-2">
+        <li
+          className="flex flex-col pl-0 md:flex-row md:gap-2"
+          style={{ paddingLeft: 0 }}
+        >
           <span className="font-bold">Geoguessr Challenge</span>{" "}
-          <span> | </span>
-          <span>Pake Room </span>
-          <span> | </span>
-          <span> 9:00 - 2:30 pm</span>
+          <span className="hidden md:inline"> | </span>
+          <span className="ml-4 md:ml-1">Pake Room </span>
+          <span className="hidden md:inline"> | </span>
+          <span className="ml-4 md:ml-1"> 9:00 - 2:30 pm</span>
         </li>
-        <li className="flex gap-2">
+        <li
+          className="flex flex-col pl-0 md:flex-row md:gap-2"
+          style={{ paddingLeft: 0 }}
+        >
           <span className="font-bold">Map Gallery</span>
-          <span> | </span>
-          <span>Rangos Ballroom</span>
-          <span> | </span>
-          <span> Voting ends at 2:30 pm</span>
+          <span className="hidden md:inline"> | </span>
+          <span className="ml-4 md:ml-1">Rangos Ballroom</span>
+          <span className="hidden md:inline"> | </span>
+          <span className="ml-4 md:ml-1"> Voting ends at 2:30 pm</span>
         </li>
       </ul>
 
-      <h3 className="mt-8 font-display text-4xl">Schedule</h3>
+      <h3 className="mt-8 font-display text-2xl md:text-3xl">Schedule</h3>
       <p>Rangos Ballroom</p>
-      <table className="mt-4 table-auto text-xl">
+      <table className="mt-4 table-fixed text-sm md:table-auto md:text-lg lg:text-lg">
         <tbody>
           {schedule.map((item) => (
             <tr key={item.time.toISOString()} className="mb-1">
-              <th className="pr-4 text-right font-mono">
+              <th className="w-20 pr-2 text-right font-mono md:w-auto lg:pr-4">
                 {item.time.toLocaleTimeString(undefined, {
                   timeStyle: "short",
                 })}
@@ -136,25 +163,31 @@ export default async function ProgramPage() {
         </tbody>
       </table>
 
-      <h3 className="mt-8 font-display text-4xl">Mappy Hour</h3>
+      <h3 className="mt-8 font-display text-2xl md:text-3xl">Mappy Hour</h3>
       <p>Spirits & Tales in the Oaklander Hotel</p>
       <p>
         <a href="https://www.spiritsandtales.com/?utm_source=google&utm_medium=organic&utm_campaign=business_listing"></a>
       </p>
-      <table className="mt-4 table-auto text-xl">
+      <table className="mt-4 table-fixed text-sm md:table-auto md:text-lg lg:text-xl">
         <tbody>
           <tr>
-            <th className="pr-4 text-right font-mono">4:30 - 6:30 pm</th>
+            <th className="w-32 pr-2 text-right font-mono md:w-auto lg:pr-4">
+              4:30 - 6:30 pm
+            </th>
             <td>Sponsored by Larson Design Group</td>
           </tr>
         </tbody>
       </table>
 
-      <h2 className="mt-12 mb-6 font-display text-5xl">Program Details</h2>
+      <h2 className="mt-12 mb-6 font-display text-3xl md:text-4xl">
+        Program Details
+      </h2>
       <section id="program-details">
         <section id="morning-session" className="my-4">
           <div className="-mx-2 bg-dark-slate px-2 py-2 text-background">
-            <h3 className="font-display text-4xl">Morning Session</h3>
+            <h3 className="m-0 font-display text-2xl leading-none md:text-3xl">
+              Morning Session
+            </h3>
             <p className="mt-1 text-2xl">Rangos Ballroom</p>
           </div>
           <ul>
@@ -225,7 +258,9 @@ export default async function ProgramPage() {
         </section>
         <section id="midday-session" className="my-4">
           <div className="-mx-2 bg-dark-slate px-2 py-2 text-background">
-            <h3 className="font-display text-4xl">Mid-day Session & Lunch</h3>
+            <h3 className="m-0 font-display text-2xl leading-none md:text-3xl">
+              Mid-day Session & Lunch
+            </h3>
             <p className="mt-1 text-2xl">Rangos Ballroom</p>
           </div>
           <ul>
@@ -270,7 +305,9 @@ export default async function ProgramPage() {
         </section>
         <section id="afternoon-session" className="my-4">
           <div className="-mx-2 bg-dark-slate px-2 py-2 text-background">
-            <h3 className="font-display text-4xl">Afternoon Session</h3>
+            <h3 className="m-0 font-display text-2xl leading-none md:text-3xl">
+              Afternoon Session
+            </h3>
             <p className="mt-1 text-2xl">Rangos Ballroom</p>
           </div>
           <ul>
@@ -278,6 +315,7 @@ export default async function ProgramPage() {
               start="13:30"
               end="15:00"
               title="Open House & Map Gallery"
+              detailsLink="/open-house"
               location="Rangos"
               items={[
                 {

@@ -1,4 +1,5 @@
 @import "tailwindcss";
+
 @plugin "@tailwindcss/typography";
 
 :root {
@@ -22,7 +23,7 @@
   --color-dark-slate: var(--dark-slate-gray);
   --color-chocolate: var(--chocolate-cosmos);
   --color-auburn: var(--auburn);
-  --hunyadi-yellow: var(--hunyadi-yellow);
+  --color-hunyadi-yellow: var(--hunyadi-yellow);
 
 }
 
@@ -32,9 +33,19 @@ body {
   font-family: var(--font-sans) sans-serif;
 }
 
-
+button.link,
 a {
   @apply transition-[text-underline-offset] duration-150 ease-in-out;
   @apply font-semibold;
   @apply underline underline-offset-2 hover:underline-offset-4;
 }
+
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4,
+.prose h5 {
+  @apply font-display;
+  @apply font-normal;
+}
+
