@@ -35,6 +35,9 @@ export function NavMenu(props: { small?: boolean }) {
               <Link href="/open-house">Open House & Map Gallery</Link>
             </li>
             <li>
+              <Link href="/grand-challenge">Grand Challenge Expo</Link>
+            </li>
+            <li>
               <Link href="/venue">Venu & Other Info</Link>
             </li>
           </div>
@@ -78,6 +81,9 @@ export function NavMenu(props: { small?: boolean }) {
                 </li>
                 <li>
                   <Link href="/open-house">Open House & Map Gallery</Link>
+                </li>
+                <li>
+                  <Link href="/grand-challenge">Grand Challenge Expo</Link>
                 </li>
               </div>
             </ul>

@@ -310,6 +310,8 @@ export default async function ProgramPage() {
                 {
                   title:
                     "Grand Challenge Expo | Working with County Health Data",
+                  detailsLink: "/grand-challenge",
+
                   items: [
                     {
                       title:

@@ -66,7 +66,7 @@ export function ProgramItem(props: ProgramItemProps) {
         )}
         {!!props.detailsLink && (
           <div className="block text-dark-slate md:inline-block md:pl-4">
-            (<a href={props.detailsLink}>Descriptions</a>)
+            (<a href={props.detailsLink}>Description</a>)
           </div>
         )}
       </div>
@@ -84,6 +84,11 @@ export function ProgramItem(props: ProgramItemProps) {
               <div className="-ml-2 inline-block -indent-4 font-semibold">
                 &bull; {item.title}
               </div>
+              {!!item.detailsLink && (
+                <div className="block text-dark-slate md:inline-block md:pl-4">
+                  (<a href={props.detailsLink}>Description</a>)
+                </div>
+              )}
               {(!!item.speakers || !!item.organizations) && (
                 <div>
                   <span className="ml-2 inline-block">{item.speakers}</span>,
