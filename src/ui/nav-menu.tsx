@@ -12,7 +12,7 @@ export function NavMenu(props: { small?: boolean }) {
     return (
       <nav className="block pt-1 md:hidden">
         <button onClick={() => setOpen(!open)}>
-          <TbMenu2 className="size-10" />
+          <TbMenu2 className="size-10 text-dark-slate" />
         </button>
         <ul
           className="absolute left-0 w-full px-2"
