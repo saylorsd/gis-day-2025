@@ -108,26 +108,6 @@ export default async function ProgramPage() {
           className="flex flex-col pl-0 md:flex-row md:gap-2"
           style={{ paddingLeft: 0 }}
         >
-          <span className="font-bold">Escape Room</span>
-          <span className="hidden md:inline"> | </span>
-          <span className="ml-4 md:ml-1">Class of 1987 Room</span>
-          <span className="hidden md:inline"> | </span>
-          <span className="ml-4 md:ml-1">
-            10:30 am - 3:00 pm{" "}
-            <a
-              className="ml-1 inline-flex items-center rounded-sm border-2 bg-teal-200 px-1 py-0.5 text-xs uppercase shadow transition-all duration-150 ease-in hover:bg-teal-400 hover:shadow-lg md:text-sm"
-              style={{ textDecoration: "none" }}
-              href="https://docs.google.com/spreadsheets/d/1MmnPdv8HcKdbzxAZ1Rhi9rTpAJrtrimN6WK1I3337Wo/edit?usp=sharing"
-            >
-              <TbPencil />
-              <div>sign up for a time</div>
-            </a>
-          </span>
-        </li>
-        <li
-          className="flex flex-col pl-0 md:flex-row md:gap-2"
-          style={{ paddingLeft: 0 }}
-        >
           <span className="font-bold">Geoguessr Challenge</span>{" "}
           <span className="hidden md:inline"> | </span>
           <span className="ml-4 md:ml-1">Pake Room </span>
